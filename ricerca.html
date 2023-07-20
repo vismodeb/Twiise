@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Twiise - Ricerca</title>
+   <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+   <!-- Bootstrap Css -->
+   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+   <!-- Font-Awesome -->
+   <link rel="stylesheet" href="assets/css/fontaswesome.min.css">
+   <!-- Owl Carousel -->
+   <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+   <!-- Style Css -->
+   <link rel="stylesheet" href="assets/css/style.css">
+   <!-- Responsive Css -->
+   <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+   <!-- ===================================================================================
+                                 Header Area Start 
+   =====================================================================================-->
+   <header>
+      <div class="header-area">
+         <div class="container">
+            <div class="header-main">
+               <div class="header-menu">
+                  <div class="header-logo">
+                     <a href="index.html"><img src="assets/images/Logo.svg" alt="logo-img"/></a>
+                  </div>
+                  <div class="header-nav">
+                     <nav class="louout_nav">
+                        <ul>
+                           <li><a href="index.html" class="active">Home</a></li>
+                           <li><a href="profilo.html">Profilo</a></li>
+                           <li class="desk_login"><a href="logout.html">Logout</a></li>
+                           <li class="notification_img1"><a href="javascript:void(0);">
+                              <span class="dots"></span><i class="fa-solid fa-bell"></i></a>
+                           </li>
+                           <li class="notification_img2 "><a href="javascript:void(0);"><i class="fa-solid fa-bell"></i></a></li>
+                           <li class="desk_header_btn"><a href="#" class="header_btn">400 €</a></li>
+                        </ul>
+                        <div class="mobile_wallet">
+                           <ul>
+                              <li><a href="wallet.html">Wallet</a></li>
+                              <li><a href="#" class="header_btn">400 €</a></li>
+                           </ul>
+                        </div>
+                        <a href="logout.html" class="mobile_btn logout_btn">Logout</a>
+                     </nav>
+                     <div class="mobile_notification">
+                        <ul>
+                           <li class="notification_img1"><a href="javascript:void(0);">
+                              <span class="dots"></span><i class="fa-solid fa-bell"></i></a>
+                           </li>
+                           <li class="notification_img2"><a href="javascript:void(0);"><i class="fa-solid fa-bell"></i></a></li>
+                        </ul>
+                     </div>
+                  </div>                  
+               </div>
+               <div class="notification_box_main">
+                  <div class="notification_box">
+                     <ul class="single_notification">
+                        <li class="single_ntf_left">
+                           <p class="pera_text">20 Maggio</p>
+                           <h3 class="text_20">Bagno D’oro</h3>
+                        </li>
+                        <li class="single_ntf_right">
+                           <a href="#" class="btn_2">
+                              <img src="assets/images/checkmark-circle.svg" alt="checked"> 
+                              <span>Venduta</span>
+                           </a>
+                        </li>
+                     </ul>
+                     <ul class="single_notification">
+                        <li class="single_ntf_left">
+                           <p class="pera_text">10 – 11 Giugno</p>
+                           <h3 class="text_20">Bagno D’oro</h3>
+                        </li>
+                        <li class="single_ntf_right">
+                           <a href="#" class="btn_2 btn2_danger">
+                              <span>Revocata</span>
+                           </a>
+                        </li>
+                     </ul>
+                     <ul class="single_notification">
+                        <li class="single_ntf_left">
+                           <p class="pera_text">20 Maggio</p>
+                           <h3 class="text_20">Bagno D’oro</h3>
+                        </li>
+                        <li class="single_ntf_right">
+                           <a href="#" class="btn_2">
+                              <img src="assets/images/checkmark-circle.svg" alt="checked"> 
+                              <span>Venduta</span>
+                           </a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="mobile-menu">
+                  <div id="nav-icon" class="menu_icon">
+                     <span></span>
+                     <span></span>
+                     <span></span>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </header>
+   <!-- ===================================================================================
+                                 Header Area End 
+   =====================================================================================-->
+
+   <!-- ===================================================================================
+                                 Ricerca Banner Area Start 
+   =====================================================================================-->
+   <section class="blue_bg">
+      <div class="container">
+         <div class="ricerca_banner_content">
+            <h1 class="text_64">La spiaggia ti aspetta, <br> <span> Prenota ora</span></h1>
+
+            <div class="barra_ricerca_main">
+               <nav>
+                  <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                    <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Un Giorno</button>
+                    <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Più giorni</button>
+                  </div>
+               </nav>
+               <div class="tab-content barra_tab_content" id="nav-tabContent">
+                  <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
+                     <form action="#" method="POST">
+                       <div class="banner_content_left">
+                        <div class="barra_tab_input search_input input_after">
+                           <label for="search" class="pera_text">Località</label>
+                           <span><img src="assets/images/search.svg" alt="icon"></span>
+                           <input type="search" id="search" placeholder="Cerca Località...">
+                        </div>
+                        <div class="calender_date">
+                           <div class="barra_tab_input date_input input_after">
+                              <label for="from_date" class="pera_text">Dal</label>
+                              <input class="custom-date-input" type="date" id="from_date">
+                           </div>
+                           <div class="barra_tab_input date_input input_after">
+                              <label for="to_date" class="pera_text">Al</label>
+                              <input class="custom-date-input" type="date" id="to_date">
+                           </div>
+                        </div>
+                       </div>
+                       <div class="banner_content_right">
+                           <button type="button" class="gray_btn">Cerca</button>
+                       </div>
+                     </form>                     
+                  </div>
+                  <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">
+                     <form action="#" method="POST">
+                        <div class="banner_content_left">
+                           <div class="barra_tab_input search_input input_after">
+                              <label for="search" class="pera_text">Località</label>
+                              <span><img src="assets/images/search.svg" alt="icon"></span>
+                              <input type="search" id="search" placeholder="Cerca Località...">
+                           </div>
+                           <div class="calender_date">
+                              <div class="barra_tab_input date_input input_after">
+                                 <label for="from_date" class="pera_text">Dal</label>
+                                 <input class="custom-date-input" type="date" id="from_date">
+                              </div>
+                              <div class="barra_tab_input date_input input_after">
+                                 <label for="to_date" class="pera_text">Al</label>
+                                 <input class="custom-date-input" type="date" id="to_date">
+                              </div>
+                           </div>
+                        </div>
+                        <div class="banner_content_right">
+                            <button type="button" class="gray_btn">Cerca</button>
+                        </div>
+                      </form>     
+                  </div>
+                </div>
+            </div>
+
+            <div class="Oppure_link">
+               <a href="vendita-giornata.html" type="button">Oppure</a>
+               <a href="#" class="active">Vendi una giornata</a>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- ===================================================================================
+                                 Ricerca Banner Area End
+   =====================================================================================-->
+
+       <!-- ===================================================================================
+                                 Mie Slider Area Start 
+   =====================================================================================-->
+   <section>
+      <div class="container">
+         <div class="ricerca_mie_area mie-slider-area">
+            <div class="mie-slider-title">
+               <h2 class="text_32">Le mie prenotazioni</h2>
+            </div>
+            <div class="modal fade" tabindex="-1" id="staticBackdrop">
+               <div class="modal-dialog modal-dialog-centered">
+                 <div class="modal-content">
+                   <div class="modal-header">
+                     <div class="modal-title-group">
+                        <h5 class="modal-title text_32">Prenotazione confermata</h5>
+                        <p class="pera_text">Prenotazione effettuata il 5 Maggio 2023 alle 10:30 – Non Cancellabile</p>
+                     </div>
+                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                   </div>
+                   <div class="modal-body">
+                     <div class="modal-body-inner">
+                        <div class="modal-body-left">
+                           <h3 class="text_20">Bagno D’Oro</h3>
+                           <h3 class="text_20">Gallipoli, Lecce</h3>
+                        </div>
+                        <div class="modal-body-right">
+                           <h3 class="text_20">Fila 4, Posto 7</h3>
+                           <h3 class="text_20">Sdraio, Sdration</h3>
+                           <h3 class="text_20">Cabina</h3>
+                        </div>
+                     </div>
+                   </div>
+                   <div class="modal-pricing">
+                     <p class="pera_text">Totale Pagato</p>
+                     <h2 class="text_32">€ 80.0</h2>
+                   </div>
+                 </div>
+               </div>
+            </div>
+            <div class="modal fade" tabindex="-1" id="staticBackdrop2">
+               <div class="modal-dialog modal-dialog-centered">
+                 <div class="modal-content">
+                   <div class="modal-header">
+                     <div class="modal-title-group">
+                        <h5 class="modal-title text_32">Prenotazione confermata</h5>
+                        <p class="pera_text">Prenotazione effettuata il 5 Maggio 2023 alle 10:30 – Non Cancellabile</p>
+                     </div>
+                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                   </div>
+                   <div class="modal-body">
+                     <div class="modal-body-inner">
+                        <div class="modal-body-left">
+                           <h3 class="text_20">Bagno Mattera</h3>
+                           <h3 class="text_20">Forio, Napoli</h3>
+                        </div>
+                        <div class="modal-body-right">
+                           <h3 class="text_20">Fila 4, Posto 7</h3>
+                           <h3 class="text_20">Sdraio, Sdration</h3>
+                           <h3 class="text_20">Cabina</h3>
+                        </div>
+                     </div>
+                   </div>
+                   <div class="modal-pricing">
+                     <p class="pera_text">Totale Pagato</p>
+                     <h2 class="text_32">€ 80.0</h2>
+                   </div>
+                 </div>
+               </div>
+            </div>
+            <div class="modal fade" tabindex="-1" id="staticBackdrop3">
+               <div class="modal-dialog modal-dialog-centered">
+                 <div class="modal-content">
+                   <div class="modal-header">
+                     <div class="modal-title-group">
+                        <h5 class="modal-title text_32">Prenotazione confermata</h5>
+                        <p class="pera_text">Prenotazione effettuata il 5 Maggio 2023 alle 10:30 – Non Cancellabile</p>
+                     </div>
+                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                   </div>
+                   <div class="modal-body">
+                     <div class="modal-body-inner">
+                        <div class="modal-body-left">
+                           <h3 class="text_20">Lido Blu</h3>
+                           <h3 class="text_20">Terracina, Latina</h3>
+                        </div>
+                        <div class="modal-body-right">
+                           <h3 class="text_20">Fila 4, Posto 7</h3>
+                           <h3 class="text_20">Sdraio, Sdration</h3>
+                           <h3 class="text_20">Cabina</h3>
+                        </div>
+                     </div>
+                   </div>
+                   <div class="modal-pricing">
+                     <p class="pera_text">Totale Pagato</p>
+                     <h2 class="text_32">€ 80.0</h2>
+                   </div>
+                 </div>
+               </div>
+            </div>
+            <div class="mie-slider-main ricerca_mie_main desktop-show">
+               <div class="mie-right-card" data-bs-target="#staticBackdrop" data-bs-toggle="modal">
+                  <p class="pera_text">10 – 11 Giugno</p>
+                  <h3 class="text_20">Bagno Mattera</h3>
+                  <p class="pera_text">Forio, Napoli</p>
+               </div>
+               <div class="mie-right-card" data-bs-target="#staticBackdrop2" data-bs-toggle="modal">
+                  <p class="pera_text">30 Luglio – 2 Agosto</p>
+                  <h3 class="text_20">Bagno Mattera</h3>
+                  <p class="pera_text">Forio, Napoli</p>
+               </div>
+               <div class="mie-right-card" data-bs-target="#staticBackdrop3" data-bs-toggle="modal">
+                  <p class="pera_text">8 – 10 Agosto</p>
+                  <h3 class="text_20">Lido Blu</h3>
+                  <p class="pera_text">Terracina, Latina</p>
+               </div>
+            </div>
+            <!-- Mobile Slider -->
+            <div class="mobile-show">
+               <div class="mie-slider-main ricerca_mie_main owl-carousel">
+                  <div class="mie-right-card" data-bs-target="#staticBackdrop" data-bs-toggle="modal">
+                     <p class="pera_text">10 – 11 Giugno</p>
+                     <h3 class="text_20">Bagno Mattera</h3>
+                     <p class="pera_text">Forio, Napoli</p>
+                  </div>
+                  <div class="mie-right-card" data-bs-target="#staticBackdrop2" data-bs-toggle="modal">
+                     <p class="pera_text">30 Luglio – 2 Agosto</p>
+                     <h3 class="text_20">Bagno Mattera</h3>
+                     <p class="pera_text">Forio, Napoli</p>
+                  </div>
+                  <div class="mie-right-card" data-bs-target="#staticBackdrop3" data-bs-toggle="modal">
+                     <p class="pera_text">8 – 10 Agosto</p>
+                     <h3 class="text_20">Lido Blu</h3>
+                     <p class="pera_text">Terracina, Latina</p>
+                  </div>
+               </div>
+            </div>
+            <!-- Mobile Slider -->
+         </div>
+      </div>
+   </section>
+   <!-- ===================================================================================
+                                 Mie Slider Area End 
+   =====================================================================================-->
+   <div class="border-gray"></div>
+   <!-- ===================================================================================
+                                 Mie Slider Area End 
+   =====================================================================================-->
+   <section class="ricerca_mie_bottom">
+      <div class="container">
+         <div class="mio-mie-right">
+            <div class="mie-right-title">
+               <h2 class="text_32">Le mie giornate in vendita <a href="#"><img src="assets/images/add-circle.svg" alt="add-circle"></a> </h2>
+            </div>
+            <ul class="mie-card-group desktop-slider">
+               <li class="mie-right-card" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                  <p class="pera_text">1 Giugno</p>
+                  <h3 class="text_20">Bagno D’oro</h3>
+                  <p class="pera_text">Gallipoli, Lecce</p>
+               </li>
+               <li class="mie-right-card mie-right-card2">
+                  <div class="mie-text-btn">
+                     <p class="pera_text">20 Maggio</p>
+                     <p class="btn_2"><img src="assets/images/checkmark-circle.svg" alt="checked"> Venduta</p>
+                  </div>
+                  <h3 class="text_20">Bagno D’oro</h3>
+                  <p class="pera_text">Gallipoli, Lecce</p>
+               </li>
+            </ul>
+            <!-- Mobile Slider -->
+            <div class="mobile-slider">
+               <ul class="mie-card-group owl-carousel">
+                  <li class="mie-right-card" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                     <p class="pera_text">1 Giugno</p>
+                     <h3 class="text_20">Bagno D’oro</h3>
+                     <p class="pera_text">Gallipoli, Lecce</p>
+                  </li>
+                  <li class="mie-right-card mie-right-card2">
+                     <div class="mie-text-btn">
+                        <p class="pera_text">20 Maggio</p>
+                        <p class="btn_2"><img src="assets/images/checkmark-circle.svg" alt="checked"> Venduta</p>
+                     </div>
+                     <h3 class="text_20">Bagno D’oro</h3>
+                     <p class="pera_text">Gallipoli, Lecce</p>
+                  </li>
+               </li>
+               
+            </div>
+            <!-- Mobile Slider -->
+         </div>
+      </div>
+   </section>
+   <!-- ===================================================================================
+                                 Mie Slider Area End 
+   =====================================================================================-->
+
+ 
+ <!-- Modal -->
+ <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+   <div class="modal-dialog Giornata_modal_width ">
+     <div class="modal-content">
+       <div class="modal-header">
+         <h3 class="text_32" id="exampleModalLabel">Giornata in vendita</h3>
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+       </div>
+       <div class="modal-body">
+         <div class="giornata_modal_body">
+            <p class="text_20">Gallipoli</p>
+            <p class="text_20_gray">Lecce</p>
+            <p class="pera_bold"><span>1 Giugno</span> <span>€ 25.0</span></p>
+            <p class="pera_text">Fila 1, Posto 3</p>
+            <p class="pera_text">Sdraio, Lettino</p>
+            <p class="pera_text">Cabina</p>
+         </div>
+       </div>
+       <div class="modal-footer">
+         <button type="button" class="btn btn_danger" data-bs-dismiss="modal">Revoca</button>
+       </div>
+     </div>
+   </div>
+ </div>
+ 
+
+   <!-- Js Files -->
+   <script src="assets/js/jquery-3.6.1.min.js"></script>
+   <script src="assets/js/bootstrap.bundle.min.js"></script>
+   <script src="assets/js/owl.carousel.min.js"></script>
+   <script src="assets/js/script.js"></script>
+</body>
+</html>

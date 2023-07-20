@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Twiise - Nuova Prenotazione</title>
+   <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+   <!-- Bootstrap Css -->
+   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+   <!-- Font-Awesome -->
+   <link rel="stylesheet" href="assets/css/fontaswesome.min.css">
+   <!-- Owl Carousel -->
+   <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+   <!-- Style Css -->
+   <link rel="stylesheet" href="assets/css/style.css">
+   <!-- Responsive Css -->
+   <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+
+  <!-- ===================================================================================
+                                 Header Area Start 
+   =====================================================================================-->
+   <header>
+      <div class="header-area">
+         <div class="container">
+            <div class="header-main">
+               <div class="header-menu">
+                  <div class="header-logo">
+                     <a href="index.html"><img src="assets/images/Logo.svg" alt="logo-img"/></a>
+                  </div>
+                  <div class="header-nav">
+                     <nav class="louout_nav">
+                        <ul>
+                           <li><a href="index.html" class="active">Home</a></li>
+                           <li><a href="profilo.html">Profilo</a></li>
+                           <li class="desk_login"><a href="logout.html">Logout</a></li>
+                           <li class="notification_img1"><a href="javascript:void(0);">
+                              <span class="dots"></span><i class="fa-solid fa-bell"></i></a>
+                           </li>
+                           <li class="notification_img2 "><a href="javascript:void(0);"><i class="fa-solid fa-bell"></i></a></li>
+                           <li class="desk_header_btn"><a href="#" class="header_btn">400 €</a></li>
+                        </ul>
+                        <div class="mobile_wallet">
+                           <ul>
+                              <li><a href="wallet.html">Wallet</a></li>
+                              <li><a href="#" class="header_btn">400 €</a></li>
+                           </ul>
+                        </div>
+                        <a href="logout.html" class="mobile_btn logout_btn">Logout</a>
+                     </nav>
+                     <div class="mobile_notification">
+                        <ul>
+                           <li class="notification_img1"><a href="javascript:void(0);">
+                              <span class="dots"></span><i class="fa-solid fa-bell"></i></a>
+                           </li>
+                           <li class="notification_img2"><a href="javascript:void(0);"><i class="fa-solid fa-bell"></i></a></li>
+                        </ul>
+                     </div>
+                  </div>                  
+               </div>
+               <div class="notification_box_main">
+                  <div class="notification_box">
+                     <ul class="single_notification">
+                        <li class="single_ntf_left">
+                           <p class="pera_text">20 Maggio</p>
+                           <h3 class="text_20">Bagno D’oro</h3>
+                        </li>
+                        <li class="single_ntf_right">
+                           <a href="#" class="btn_2">
+                              <img src="assets/images/checkmark-circle.svg" alt="checked"> 
+                              <span>Venduta</span>
+                           </a>
+                        </li>
+                     </ul>
+                     <ul class="single_notification">
+                        <li class="single_ntf_left">
+                           <p class="pera_text">10 – 11 Giugno</p>
+                           <h3 class="text_20">Bagno D’oro</h3>
+                        </li>
+                        <li class="single_ntf_right">
+                           <a href="#" class="btn_2 btn2_danger">
+                              <span>Revocata</span>
+                           </a>
+                        </li>
+                     </ul>
+                     <ul class="single_notification">
+                        <li class="single_ntf_left">
+                           <p class="pera_text">20 Maggio</p>
+                           <h3 class="text_20">Bagno D’oro</h3>
+                        </li>
+                        <li class="single_ntf_right">
+                           <a href="#" class="btn_2">
+                              <img src="assets/images/checkmark-circle.svg" alt="checked"> 
+                              <span>Venduta</span>
+                           </a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="mobile-menu">
+                  <div id="nav-icon" class="menu_icon">
+                     <span></span>
+                     <span></span>
+                     <span></span>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </header>
+   <!-- ===================================================================================
+                                 Header Area End 
+   =====================================================================================-->
+
+
+   <!-- ===================================================================================
+                                 Dashboard Hero Area Start 
+   =====================================================================================-->
+   <section class="dashboard-hero">
+      <div class="container">
+         <div class="dashboard-hero-area">
+            <div class="dashboard-hero-title">
+               <p class="pera_text">Stabilimento</p>
+               <h1 class="text_64">Bagni Graziella</h1>
+            </div>
+            <div class="nuova_prenotazione_form">
+               <div class="nuova_prenotazione_title">
+                  <p>Nuova Prenotazione</p>
+                  <span id="nuova_prenotazione_close"><i class="fa-solid fa-xmark"></i></span>
+               </div>
+               <nav class="mobile_nav_tabe">
+                  <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                    <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Un Giorno</button>
+                    <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Più giorni</button>
+                  </div>
+               </nav>
+               <div class="tab-content barra_tab_content" id="nav-tabContent">
+                  <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
+                     <form action="#" method="POST" class="nuova_form">
+                        <div class="banner_content_left">
+                        <div class="Nuova_input">
+                           <div class="calender_date">
+                              <div class="barra_tab_input date_input input_after">
+                                 <label for="from_date" class="pera_text">Dal</label>
+                                 <input class="custom-date-input" type="date" id="from_date">
+                              </div>
+                              <div class="barra_tab_input date_input">
+                                 <label for="select_option" class="pera_text">Fila</label>
+                                 <select id="select_option" class="form-select" aria-label="Default select example">
+                                 <option value="Scegli">Scegli</option>
+                                 <option value="Scegli2">Scegli2</option>
+                                 <option value="Scegli3">Scegli3</option>
+                                 </select>
+                              </div>
+                           </div>
+                           <div class="calender_date">
+                              <div class="barra_tab_input date_input">
+                                 <label for="select_option" class="pera_text">Ombrellone</label>
+                                 <select id="select_option" class="form-select" aria-label="Default select example">
+                                 <option value="Scegli">Scegli</option>
+                                 <option value="Scegli2">Scegli2</option>
+                                 <option value="Scegli3">Scegli3</option>
+                                 </select>
+                              </div>
+                              <div class="barra_tab_input date_input">
+                                 <label for="select_option" class="pera_text">Arredo</label>
+                                 <select id="select_option" class="form-select" aria-label="Default select example">
+                                 <option value="Scegli">Scegli</option>
+                                 <option value="Scegli2">Scegli2</option>
+                                 <option value="Scegli3">Scegli3</option>
+                                 </select>
+                              </div>
+                           </div>
+                           <div class="add_input_item">
+                              <a href="#"><img src="assets/images/add-circle.svg" alt="icon"></a>
+                           </div>
+                        </div>
+                        </div>
+                        <div class="banner_content_right nuova_button_right">
+                           <button type="button" class="success_blue_btn">Inserisci</button>
+                        </div>
+                     </form>   
+                  </div>
+                  <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">                 
+                     <form action="#" method="POST" class="nuova_form">
+                        <div class="banner_content_left">
+                        <div class="Nuova_input">
+                           <div class="calender_date">
+                              <div class="barra_tab_input date_input input_after">
+                                 <label for="from_date" class="pera_text">Dal</label>
+                                 <input class="custom-date-input" type="date"  id="from_date" placeholder="10 Giugno" value="">
+                              </div>
+                              <div class="barra_tab_input date_input">
+                                 <label for="select_option" class="pera_text">Fila</label>
+                                 <select id="select_option" class="form-select" aria-label="Default select example">
+                                 <option value="Scegli">Scegli</option>
+                                 <option value="Scegli2">Scegli2</option>
+                                 <option value="Scegli3">Scegli3</option>
+                                 </select>
+                              </div>
+                           </div>
+                           <div class="calender_date">
+                              <div class="barra_tab_input date_input">
+                                 <label for="select_option" class="pera_text">Ombrellone</label>
+                                 <select id="select_option" class="form-select" aria-label="Default select example">
+                                 <option value="Scegli">Scegli</option>
+                                 <option value="Scegli2">Scegli2</option>
+                                 <option value="Scegli3">Scegli3</option>
+                                 </select>
+                              </div>
+                              <div class="barra_tab_input date_input">
+                                 <label for="select_option" class="pera_text">Arredo</label>
+                                 <select id="select_option" class="form-select" aria-label="Default select example">
+                                 <option value="Scegli">Scegli</option>
+                                 <option value="Scegli2">Scegli2</option>
+                                 <option value="Scegli3">Scegli3</option>
+                                 </select>
+                              </div>
+                           </div>
+                           <div class="add_input_item">
+                              <a href="#"><img src="assets/images/add-circle.svg" alt="icon"></a>
+                           </div>
+                        </div>
+                        </div>
+                        <div class="banner_content_right nuova_button_right">
+                           <button type="button" class="success_blue_btn">Inserisci</button>
+                        </div>
+                     </form>                     
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- ===================================================================================
+                                 Dashboard Hero Area End 
+   =====================================================================================-->
+
+
+   <!-- ===================================================================================
+                                 Dashboard Content Area Start 
+   =====================================================================================-->
+   <section>
+      <div class="container">
+         <div class="dashboard-content-area">
+            <div class="aggiornamenti-area">
+               <div class="dashboard-content-title">
+                  <h3 class="text_32">Aggiornamenti</h3>
+               </div>
+               <div class="aggiornamenti-card">
+                  <div class="aggiornamenti-card-single">
+                     <div class="aggiornamenti-profile">
+                        <img src="assets/images/person-circle-sharp.svg" alt="person">
+                        <h5 class="pera_text">carly4</h5>
+                     </div>
+                     <h4 class="text_20">Disponibilità 12 Giugno venduta</h4>
+                     <h5 class="pera_text">Fila 1, Ombrellone 13</h5>
+                  </div>
+                  <div class="aggiornamenti-card-single">
+                     <div class="aggiornamenti-profile">
+                        <img src="assets/images/person-circle-sharp.svg" alt="person">
+                        <h5 class="pera_text">paki1</h5>
+                     </div>
+                     <h4 class="text_20">Nuova disponibilità per il 5 Agosto</h4>
+                     <h5 class="pera_text">Fila 6, Ombrellone 10</h5>
+                  </div>
+                  <div class="aggiornamenti-card-single">
+                     <div class="aggiornamenti-profile">
+                        <img src="assets/images/person-circle-sharp.svg" alt="person">
+                        <h5 class="pera_text">carly4</h5>
+                     </div>
+                     <h4 class="text_20">Disponibilità 12 Giugno venduta</h4>
+                     <h5 class="pera_text">Fila 1, Ombrellone 13</h5>
+                  </div>
+                  <div class="aggiornamenti-card-single">
+                     <div class="aggiornamenti-profile">
+                        <img src="assets/images/person-circle-sharp.svg" alt="person">
+                        <h5 class="pera_text">carly4</h5>
+                     </div>
+                     <h4 class="text_20">Disponibilità 12 Giugno venduta</h4>
+                     <h5 class="pera_text">Fila 1, Ombrellone 13</h5>
+                  </div>
+               </div>
+            </div>
+            <div class="ombrelloni-area">
+               <div class="dashboard-content-title">
+                  <h3 class="text_32">Ombrelloni</h3>
+               </div>
+               <div class="ombrelloni-card">
+                  <!-- Disponibili -->
+                  <div class="disponibili-area">
+                     <div class="disponibili-title">
+                        <h4 class="pera_text">Disponibili</h4>
+                     </div>
+                     <div class="disponibili-content">
+                        <div class="aggiornamenti-card-single">
+                           <div class="aggiornamenti-profile">
+                              <img src="assets/images/person-circle-sharp.svg" alt="person">
+                              <h5 class="pera_text">carly4</h5>
+                           </div>
+                           <h4 class="text_20">12 Giugno</h4>
+                           <h5 class="pera_text">Fila 1, Ombrellone 13</h5>
+                        </div>
+                        <div class="aggiornamenti-card-single">
+                           <div class="aggiornamenti-profile">
+                              <img src="assets/images/person-circle-sharp.svg" alt="person">
+                              <h5 class="pera_text">carly4</h5>
+                           </div>
+                           <h4 class="text_20">Dal 07 al 11 Giugno</h4>
+                           <h5 class="pera_text">Fila 1, Ombrellone 13</h5>
+                        </div>
+                        <div class="aggiornamenti-card-single">
+                           <div class="aggiornamenti-profile">
+                              <img src="assets/images/person-circle-sharp.svg" alt="person">
+                              <h5 class="pera_text">carly4</h5>
+                           </div>
+                           <h4 class="text_20">10 Giugno</h4>
+                           <h5 class="pera_text">Fila 1, Ombrellone 13</h5>
+                        </div>
+                        <div class="aggiornamenti-card-single">
+                           <div class="aggiornamenti-profile">
+                              <img src="assets/images/person-circle-sharp.svg" alt="person">
+                              <h5 class="pera_text">carly4</h5>
+                           </div>
+                           <h4 class="text_20">10 Giugno</h4>
+                           <h5 class="pera_text">Fila 1, Ombrellone 13</h5>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- Venduti -->
+                  <div class="venduti-area">
+                     <div class="venduti-title">
+                        <h4 class="pera_text">Venduti</h4>
+                     </div>
+                     <div class="venduti-content">
+                        <div class="aggiornamenti-card-single">
+                           <div class="aggiornamenti-profile-flex">
+                              <div class="aggiornamenti-profile">
+                                 <img src="assets/images/person-circle-sharp.svg" alt="person">
+                                 <h5 class="pera_text">carly4</h5>
+                              </div>
+                              <h5 class="pera_text">€ 40.0</h5>
+                           </div>
+                           <h4 class="text_20">12 Giugno</h4>
+                           <h5 class="pera_text">Fila 1, Ombrellone 13</h5>
+                        </div>
+                        <div class="aggiornamenti-card-single">
+                           <div class="aggiornamenti-profile-flex">
+                              <div class="aggiornamenti-profile">
+                                 <img src="assets/images/person-circle-sharp.svg" alt="person">
+                                 <h5 class="pera_text">carly4</h5>
+                              </div>
+                              <h5 class="pera_text">€ 80.0</h5>
+                           </div>
+                           <h4 class="text_20">Dal 07 al 11 Giugno</h4>
+                           <h5 class="pera_text">Fila 1, Ombrellone 13</h5>
+                        </div>
+                        <div class="aggiornamenti-card-single">
+                           <div class="aggiornamenti-profile-flex">
+                              <div class="aggiornamenti-profile">
+                                 <img src="assets/images/person-circle-sharp.svg" alt="person">
+                                 <h5 class="pera_text">carly4</h5>
+                              </div>
+                              <h5 class="pera_text">€ 100.0</h5>
+                           </div>
+                           <h4 class="text_20">dal 7 Maggio al 10 Giugno</h4>
+                           <h5 class="pera_text">Fila 1, Ombrellone 13</h5>
+                        </div>
+                        <div class="aggiornamenti-card-single">
+                           <div class="aggiornamenti-profile-flex">
+                              <div class="aggiornamenti-profile">
+                                 <img src="assets/images/person-circle-sharp.svg" alt="person">
+                                 <h5 class="pera_text">carly4</h5>
+                              </div>
+                              <h5 class="pera_text">€ 40.0</h5>
+                           </div>
+                           <h4 class="text_20">10 Giugno</h4>
+                           <h5 class="pera_text">Fila 1, Ombrellone 13</h5>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="ombrelloni-footer">
+                  <a href="javascript:void(0);" class="pera_text">Vedi tutti</a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- ===================================================================================
+                                 Dashboard Content Area End 
+   =====================================================================================-->
+
+
+   <!-- ===================================================================================
+                                 Ombrelloni Slider Area Start 
+   =====================================================================================-->
+   <section>
+      <div class="container">
+         <div class="ombrelloni-slider-area">
+            <div class="ombrelloni-slider-title">
+               <h3 class="text_32">Ombrelloni</h3>
+            </div>
+            <!-- Disponibili -->
+            <div class="disponibili-slider-title">
+               <h3 class="pera_text">Disponibili</h3>
+            </div>
+            <div class="disponibili-venduti-slider owl-carousel">
+               <div class="disponibili-venduti-group">
+                  <div class="aggiornamenti-card-single">
+                     <div class="aggiornamenti-profile">
+                        <img src="assets/images/person-circle-sharp.svg" alt="person">
+                        <h5 class="pera_text">carly4</h5>
+                     </div>
+                     <h4 class="text_20">12 Giugno</h4>
+                     <h5 class="pera_text">Fila 1, Ombrellone 13</h5>
+                     <h4 class="balance-text">€ 40.0</h4>
+                  </div>
+                  <div class="aggiornamenti-card-single">
+                     <div class="aggiornamenti-profile">
+                        <img src="assets/images/person-circle-sharp.svg" alt="person">
+                        <h5 class="pera_text">carly4</h5>
+                     </div>
+                     <h4 class="text_20">Dal 07 al 11 Giugno</h4>
+                     <h5 class="pera_text">Fila 1, Ombrellone 13</h5>
+                     <h4 class="balance-text">€ 40.0</h4>
+                  </div>
+               </div>
+               <div class="disponibili-venduti-group">
+                  <div class="aggiornamenti-card-single">
+                     <div class="aggiornamenti-profile">
+                        <img src="assets/images/person-circle-sharp.svg" alt="person">
+                        <h5 class="pera_text">carly4</h5>
+                     </div>
+                     <h4 class="text_20">12 Giugno</h4>
+                     <h5 class="pera_text">Fila 1, Ombrellone 13</h5>
+                     <h4 class="balance-text">€ 40.0</h4>
+                  </div>
+                  <div class="aggiornamenti-card-single">
+                     <div class="aggiornamenti-profile">
+                        <img src="assets/images/person-circle-sharp.svg" alt="person">
+                        <h5 class="pera_text">carly4</h5>
+                     </div>
+                     <h4 class="text_20">12 Giugno</h4>
+                     <h5 class="pera_text">Fila 1, Ombrellone 13</h5>
+                     <h4 class="balance-text">€ 40.0</h4>
+                  </div>
+               </div>
+            </div>
+            <!-- Venduti -->
+            <div class="venduti-slider-title">
+               <h3 class="pera_text">Venduti</h3>
+            </div>
+            <div class="disponibili-venduti-slider owl-carousel">
+               <div class="disponibili-venduti-group">
+                  <div class="aggiornamenti-card-single">
+                     <div class="aggiornamenti-profile">
+                        <img src="assets/images/person-circle-sharp.svg" alt="person">
+                        <h5 class="pera_text">carly4</h5>
+                     </div>
+                     <h4 class="text_20">12 Giugno</h4>
+                     <h5 class="pera_text">Fila 1, Ombrellone 13</h5>
+                     <h4 class="balance-text">€ 40.0</h4>
+                  </div>
+                  <div class="aggiornamenti-card-single">
+                     <div class="aggiornamenti-profile">
+                        <img src="assets/images/person-circle-sharp.svg" alt="person">
+                        <h5 class="pera_text">carly4</h5>
+                     </div>
+                     <h4 class="text_20">Dal 07 al 11 Giugno</h4>
+                     <h5 class="pera_text">Fila 1, Ombrellone 13</h5>
+                     <h4 class="balance-text">€ 80.0</h4>
+                  </div>
+               </div>
+               <div class="disponibili-venduti-group">
+                  <div class="aggiornamenti-card-single">
+                     <div class="aggiornamenti-profile">
+                        <img src="assets/images/person-circle-sharp.svg" alt="person">
+                        <h5 class="pera_text">carly4</h5>
+                     </div>
+                     <h4 class="text_20">dal 7 Maggio al 10 Giugno</h4>
+                     <h5 class="pera_text">Fila 1, Ombrellone 13</h5>
+                     <h4 class="balance-text">€ 100.0</h4>
+                  </div>
+                  <div class="aggiornamenti-card-single">
+                     <div class="aggiornamenti-profile">
+                        <img src="assets/images/person-circle-sharp.svg" alt="person">
+                        <h5 class="pera_text">carly4</h5>
+                     </div>
+                     <h4 class="text_20">12 Giugno</h4>
+                     <h5 class="pera_text">Fila 1, Ombrellone 13</h5>
+                     <h4 class="balance-text">€ 80.0</h4>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- ===================================================================================
+                                 Ombrelloni Slider Area End 
+   =====================================================================================-->
+
+
+   
+   <!-- Js Files -->
+   <script src="assets/js/jquery-3.6.1.min.js"></script>
+   <script src="assets/js/bootstrap.bundle.min.js"></script>
+   <script src="assets/js/owl.carousel.min.js"></script>
+   <script src="assets/js/script.js"></script>
+</body>
+</html>
